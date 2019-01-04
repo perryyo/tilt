@@ -20,7 +20,7 @@ jobs:
 
   build-integration:
     docker:
-      - image: gcr.io/windmill-public-containers/tilt-integration-ci@sha256:d56e4c41d68518ea2b55c8d602553efc18f2a9df160b7a3e8da914ca3cc54b76
+      - image: gcr.io/windmill-public-containers/tilt-integration-ci@sha256:604ee96d4d05b69a0a7fb3502aadca8ad39e9ba20ad447803c68200a8356fde7
     working_directory: /go/src/github.com/windmilleng/tilt
     steps:
       - checkout
